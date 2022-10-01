@@ -41,4 +41,6 @@ TextCp.py文件是将token序列进行数据处理，作为TextCNN模型的输�
 
 ins2vec.py采用的词嵌入方式是Word2Vec。(也试过FasText词嵌入方式，效果比Word2Vec差一点)。
 
+writelabel26.txt是使用ANTLR工具从Software Assurance Reference Dataset (SARD)提取到的C函数级数据集，每个函数都有对应的漏洞，共包含26中漏洞类型，可以用于漏洞类型识别！
+
 下载之后，如遇到问题，欢迎询问！ qq:1135685255
