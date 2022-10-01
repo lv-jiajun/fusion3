@@ -15,9 +15,9 @@
 
 详细介绍
 
-gnnmodel文件夹中不仅有GCN和TextCNN模型，还有诸如Transfomer, TextCNN, TextRCNN等模型。
+gnnmodel文件夹中不仅有GAT和TextCNN模型，还有诸如Transfomer, TextCNN, TextRCNN,GCN等模型。
 
-gnnmodels文件夹中在gnnmodel文件夹中增加了sumModel.py文件，通过该文件来实现特征向量的有机融合。
+gnnmodels文件夹中在gnnmodel文件夹中增加了sumModel.py文件，通过该文件来实现特征向量的有机融合（融合方式有拼接融合和逐点相加两种方式，经过实验发现拼接融合效果更好）。
 
 testinputs文件夹存放的是原始数据集经过joern工具转换的属性控制流程图。
 
