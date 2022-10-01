@@ -2,9 +2,10 @@
 
 词嵌入方式：Word2Vec
 
-训练模型：TextCNN,GCN
+训练模型：TextCNN,GAT,Extended RvNN
 
-开源的源码分析工具Joern（https://joern.readthedocs.io/en/latest/） 对函数级的C/C++源代码进行分析，来提取属性控制流图。
+开源的源码分析工具Joern（https://joern.readthedocs.io/en/latest/） 对函数级的C源代码进行分析，来提取属性控制流图。
+通过调用python中pycparser模块将C函数解析为抽象语法树。
 
 采用的图框架：DGL
 
