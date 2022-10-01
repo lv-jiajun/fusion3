@@ -14,6 +14,7 @@
 下载项目后：运行family.py文件即可。
 
 详细介绍
+
 gnnmodel文件夹中不仅有GCN和TextCNN模型，还有诸如Transfomer, TextCNN, TextRCNN等模型。
 
 gnnmodels文件夹中在gnnmodel文件夹中增加了sumModel.py文件，通过该文件来实现特征向量的有机融合。
