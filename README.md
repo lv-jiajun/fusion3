@@ -21,6 +21,8 @@ gnnmodels文件夹中在gnnmodel文件夹中增加了sumModel.py文件，通过�
 
 图神经网络/testcfg文件夹存放的是原始数据集经过joern工具转换的属性控制流程图。
 
+ExtendedRvNN文件夹存放的是原始数据集经过调用python中pycparser模块转换的抽象语法树(AST)。在之后的数据处理中，首先通过对AST的先序遍历获得所有节点符号作为训练语料库;然后使用word2vec进行词嵌入，学习每个节点符号的d维向量。
+
 CFGDataset.py文件中使用DGL框架，将testinputs文件夹中的属性控制流程图经过数据处理，作为GCN模型的输入。
 
 ParameterConfig.py文件中是参数的设置。
